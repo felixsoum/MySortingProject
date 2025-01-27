@@ -17,7 +17,12 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
+	if (key == 'a') {
+		std::cout << "You pressed A. Amazing!" << std::endl;
+	}
+	if (key == 'b') {
+		std::cout << "You pressed B. Bonkers!" << std::endl;
+	}
 }
 
 //--------------------------------------------------------------
